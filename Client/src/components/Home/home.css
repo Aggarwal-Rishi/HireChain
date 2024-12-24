@@ -1,0 +1,124 @@
+html{
+    width:100%;
+}
+
+body{
+    height:100%;
+    width:100%;
+    left:0;
+    margin:0;
+    background:url("../img/background1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover; 
+}
+
+.bodyclass{
+    padding-left:10%;
+    height:100%;
+}
+
+.headerclass{
+    margin-left: 0;
+    padding-left:0;
+}
+
+.btn{
+    width:200%;
+    height:40px;
+}
+.cards {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.5);
+    margin: 25px auto;
+    margin-right: 10px;
+    z-index: auto;
+    background-color: #fff;
+  }
+  
+  .pagename{
+    color:#e9e9e9;
+    cursor: pointer;
+    align-content: center;
+    font-size:24px; 
+    
+}
+
+.pagename:hover{
+    color:#fff;
+}
+
+.username{
+    font-size:10px;
+    color:rgba(0, 0, 0, 0.5); 
+    width:50%;
+    height: 1px;
+    align-content: right;
+    font-size:20px;
+}
+
+
+  .card {
+    color: #ffffff;
+    width:100%;
+    transition: 0.5s;
+    margin: 12.5px auto;
+   
+    width: 500px;
+  }
+  
+  .front {
+    display: flex;
+    width:100%;
+    margin-bottom: 12.5px;
+  }
+  .cards:hover{
+
+    transition: 0.3s;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1.0);
+  }
+  
+  .side {
+    background-color: #01aef2;
+    margin: 70px auto;
+  }
+  
+  .cardHeader{
+      color:black;
+  }
+
+ 
+  p{
+      color:black;
+  }
+
+  h5{
+    margin-left: 10px;
+      color:black;
+  }
+  
+  .parallax1{
+    background:url("../img/background.jpg");
+    min-height:100%;
+    width: 100%;
+}
+
+.parallax1{
+    position: relative;
+    opacity:0.7;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+@media(max-width:768px){
+    .heading{
+        font-size:250%;
+    }
+    .heading-sm{
+        font-size:180%;
+    }
+}
